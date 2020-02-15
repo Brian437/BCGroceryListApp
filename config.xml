@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" version="1.0.0.0" id="BCGroceryListApp">
+
+  <name>BCGroceryList</name> 
+  <description>keeps track of Grocery List</description> 
+  <author>Brian Chaves</author>
+  
+  <versionNumber>1.0.0</versionNumber>
+  
+  <icon rim:hover="false" src="icon.png"/> 
+  <content src="index.html"/>
+    
+</widget>

@@ -1,0 +1,88 @@
+/* red color buttons */
+.ui-btn-up-r { border: 1px solid #953403; background: #2567ab; font-weight: bold; color: #fff; cursor: pointer;  text-shadow: 0 -1px 1px #953403; text-decoration: none; background-image: -moz-linear-gradient(top, #ec4a0b, #ad390c); background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ec4a0b),color-stop(1, #ad390c));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ec4a0b', EndColorStr='#ad390c')"; }
+.ui-btn-up-r a.ui-link-inherit { color: #fff; }
+.ui-btn-hover-r { border: 1px solid #953403; background: #f15c22; font-weight: bold; color: #fff;  text-shadow: 0 -1px 1px #014D68; background-image: -moz-linear-gradient(top, #f15c22, #f15c22); text-decoration: none; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f15c22),color-stop(1, #f15c22));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f15c22', EndColorStr='#f15c22')";  }
+.ui-btn-hover-r a.ui-link-inherit { color: #fff; }
+.ui-btn-down-r { border: 1px solid #225377; background: #79ae21; font-weight: bold; color: #fff; text-shadow: 0 -1px 1px #225377; background-image: -moz-linear-gradient(top, #bc770f, #e6590c); background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #bc770f),color-stop(1, #e6590c));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#bc770f', EndColorStr='#e6590c')"; }
+.ui-btn-down-r a.ui-link-inherit { color: #fff; }
+.ui-btn-up-r, .ui-btn-hover-r, .ui-btn-down-r { font-family: Helvetica, Arial, sans-serif; }
+
+body {
+    margin: 0px;
+    min-height: 480px;
+    font-family: Arial;
+}
+
+form ul {
+    margin: 0px;
+    padding: 6px;
+    list-style-type: none;
+}
+
+form ul li {
+    margin: 0 0 4px 0;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    border: 1px solid #666666;
+    padding: 4px;
+}
+
+form ul li.naked {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+	border: 0;
+    padding: 0;
+}
+
+input, textarea {
+	-moz-appearance: none;
+    -webkit-appearance: none;
+    border: 1;
+    width: 99%;
+}
+
+input.readonly {
+	background-color: lightgray;
+}
+
+input.invalid, textarea.invalid {
+    background: url(exclamation.png) no-repeat 2px 2px;
+    padding-left: 22px;
+}
+
+#errors {
+    margin: 8px 6px 2px 6px;
+    padding: 6px 14px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #cc0000), color-stop(0.7, #770022));
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    color: white;
+    display: none;
+}
+
+ul.errors-inline li {
+    border: 0px;
+    color: red;
+    padding: 0px;
+}
+
+input[type=submit] {
+    border: 1px solid white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #F8F8F8), color-stop(1.0, #AAAAAA));
+    -moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+    -moz-box-shadow: 0 0 4px #333333;
+	-webkit-box-shadow: 0 0 4px #333333;
+    width: 100%;
+    padding: 6px;
+}
+
+h5.simple {
+    font-size: 0.9em;
+    color: blue;
+}
+
+p.simple {
+    font-size: 0.9em;
+    color: blue;
+}
